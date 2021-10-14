@@ -31,6 +31,7 @@ const TabNavigator = () => {
         name="Home"
         component={Home}
         options={{
+          headerShown: false,
           tabBarIcon: ({color}) => (
             <Entypo name="home" size={32} color={color} />
           ),
@@ -40,6 +41,7 @@ const TabNavigator = () => {
         name="Search"
         component={Search}
         options={{
+          headerShown: false,
           tabBarIcon: ({color}) => (
             <MaterialCommunityIcons name="magnify" size={32} color={color} />
           ),
@@ -49,6 +51,7 @@ const TabNavigator = () => {
         name="Profile"
         component={Profile}
         options={{
+          headerShown: false,
           tabBarIcon: ({color}) => (
             <MaterialCommunityIcons name="account" size={32} color={color} />
           ),
