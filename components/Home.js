@@ -22,6 +22,23 @@ Feather.loadFont();
 Entypo.loadFont();
 
 const Home = ({navigation}) => {
+  const renderFarmaciasData = ({item}) => {
+    return (
+      <View style={styles.farmaciasItemsWrapper}>
+        <View style={styles.farmaciaItem}>
+          <Text style={styles.farmaciasNameTitle}> º {item.title}</Text>
+          <Text
+            style={[
+              styles.farmaciasDistance,
+              {color: item.id === 'farmacia-1' ? colors.green : colors.black},
+            ]}>
+            {item.distancia}
+          </Text>
+        </View>
+      </View>
+    );
+  };
+
   const renderReceitaItem = ({item}) => {
     return (
       <TouchableOpacity
@@ -88,6 +105,18 @@ const Home = ({navigation}) => {
             />
           </View>
         </View>
+
+        {/*Farmacias*/}
+        <View style={styles.farmaciasWrapper}></View>
+        <Text style={styles.titleFarmacias}>Farmácias</Text>
+        <View style={styles.farmaciasItemsWrapper}>
+          <FlatList
+            data={farmaciasData}
+            renderItem={renderFarmaciasData}
+            keyExtractor={item => item.id}
+            vertical
+          />
+        </View>
       </ScrollView>
     </View>
   );
@@ -96,7 +125,7 @@ const Home = ({navigation}) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    color: colors.white,
+    backgroundColor: colors.white,
   },
   menuWrapper: {
     marginHorizontal: 20,
@@ -159,6 +188,41 @@ const styles = StyleSheet.create({
   receitaConsultaText: {
     fontFamily: 'Lato-Bold',
     fontSize: 14,
+    color: colors.black,
+  },
+  farmaciasWrapper: {
+    marginTop: 10,
+  },
+  titleFarmacias: {
+    marginHorizontal: 20,
+    fontFamily: 'Lato-Bold',
+    fontSize: 24,
+    color: colors.black,
+    marginBottom: -10,
+  },
+  farmaciasItemsWrapper: {
+    marginTop: 10,
+    marginHorizontal: 10,
+  },
+  farmaciaItem: {
+    marginTop: 10,
+    color: colors.white,
+    padding: 10,
+    borderWidth: 1,
+    borderColor: colors.gray,
+    borderRadius: 20,
+  },
+  farmaciasNameTitle: {
+    marginTop: 10,
+    fontFamily: 'Lato-Bold',
+    fontSize: 16,
+    color: colors.black,
+  },
+  farmaciasDistance: {
+    marginLeft: 10,
+    marginTop: 20,
+    fontFamily: 'Lato-Bold',
+    fontSize: 10,
     color: colors.black,
   },
 });
