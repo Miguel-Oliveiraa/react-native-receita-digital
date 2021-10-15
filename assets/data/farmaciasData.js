@@ -21,7 +21,7 @@ const farmaciasData = [
   },
   {
     id: 'farmacia-5',
-    title: 'Farmácia pagamento de baixo custo - Camaragibe',
+    title: 'Farmácia pagamento de baixo custo',
     distancia: '12 km',
   },
 ];

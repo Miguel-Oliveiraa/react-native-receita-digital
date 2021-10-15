@@ -94,6 +94,7 @@ const Home = ({navigation}) => {
             </Text>
             <Text style={styles.categoriesReceitasText}>Cardiologista</Text>
             <Text style={styles.categoriesReceitasText}>Oftalmologista</Text>
+            <Text style={styles.categoriesReceitasText}>Neurologista</Text>
           </View>
           <View style={styles.wrapperItemsReceitas}>
             <FlatList
@@ -107,15 +108,15 @@ const Home = ({navigation}) => {
         </View>
 
         {/*Farmacias*/}
-        <View style={styles.farmaciasWrapper}></View>
-        <Text style={styles.titleFarmacias}>Farmácias</Text>
-        <View style={styles.farmaciasItemsWrapper}>
-          <FlatList
-            data={farmaciasData}
-            renderItem={renderFarmaciasData}
-            keyExtractor={item => item.id}
-            vertical
-          />
+        <View style={styles.farmaciasWrapper}>
+          <Text style={styles.titleFarmacias}>Farmácias</Text>
+          <View style={styles.farmaciasItemsWrapper}>
+            <FlatList
+              data={farmaciasData}
+              renderItem={renderFarmaciasData}
+              keyExtractor={item => item.id}
+            />
+          </View>
         </View>
       </ScrollView>
     </View>
@@ -192,6 +193,7 @@ const styles = StyleSheet.create({
   },
   farmaciasWrapper: {
     marginTop: 10,
+    marginBottom: 10,
   },
   titleFarmacias: {
     marginHorizontal: 20,

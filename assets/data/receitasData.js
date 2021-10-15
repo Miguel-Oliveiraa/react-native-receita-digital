@@ -23,6 +23,16 @@ const receitasData = [
     remedioUm: 'Colírio Lacrifilm',
     descUm: '10 ml',
   },
+  {
+    id: 'receita-3',
+    title: 'Cardio',
+    nomeMedico: 'Dr. Caio',
+    date: '04/10/2021',
+    image: require('../images/cardio-1.png'),
+    imageBig: require('../images/big-image-cardio.png'),
+    remedioUm: 'Colírio Lacrifilm',
+    descUm: '10 ml',
+  },
 ];
 
 export default receitasData;
