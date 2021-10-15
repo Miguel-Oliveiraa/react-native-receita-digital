@@ -1,7 +1,9 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {View, Text, StyleSheet, Dimensions} from 'react-native';
 import ImageBackground from 'react-native/Libraries/Image/ImageBackground';
 import colors from '../assets/colors/colors';
+
+const height = Dimensions.get('window').height;
 
 const Medico = ({route, navigation}) => {
   const {item} = route.params;
@@ -21,10 +23,15 @@ const styles = StyleSheet.create({
     backgroundColor: colors.white,
   },
   backgroundImage: {
-    width: 100,
-    height: 100,
+    height: height * 0.4,
   },
-  remediosWrapper: {},
+  remediosWrapper: {
+    flex: 1,
+    backgroundColor: colors.white,
+    marginTop: -20,
+    borderTopLeftRadius: 25,
+    borderTopRightRadius: 25,
+  },
 });
 
 export default Medico;
