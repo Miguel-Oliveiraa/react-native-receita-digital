@@ -8,10 +8,10 @@ const receitasData = [
     imageBig: require('../images/big-image-cardio.png'),
     remedioUm: 'Clonazepam',
     descUm: '2mg, 30 Comprimidos.',
-    /*remedioDois: "Azitromicina",
-        descDois: "500mg, 5 Comprimidos.",
-        remedioTres: "Expec Xarope",
-        DescTres: "120 ml",*/
+    remedioDois: 'Azitromicina',
+    descDois: '500mg, 5 Comprimidos.',
+    remedioTres: 'Expec Xarope',
+    DescTres: '120 ml',
   },
   {
     id: 'receita-2',
