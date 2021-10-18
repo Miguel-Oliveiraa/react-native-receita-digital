@@ -11,7 +11,7 @@ Primeiro faça um clone desse repositório.
 ```
 $ git clone https://github.com/migasrcf/ReceitaDigital-FrontEnd
 ou
-$ git clone git@github.com:migasrcf/ReactNativeTodoList.git
+$ git clone git@github.com:migasrcf/ReceitaDigital-FrontEnd.git
 ```
 
 Entre no diretorio
