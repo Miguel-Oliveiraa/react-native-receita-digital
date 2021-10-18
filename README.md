@@ -1,5 +1,5 @@
 # Salus receita digital
-Aplicativo para gerenciar as tarefas diarias, desenvolvido em React JS. :iphone: :ledger:
+Aplicativo para receituarios medicos, desenvolvido em React JS. :iphone:
 
 <h1 align='left'>
   <img src='./Modelo_LightMode.jpg' height=425></img>
