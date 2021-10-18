@@ -1,4 +1,4 @@
-# TodoList React-Native
+# Salus receita digital
 Aplicativo para gerenciar as tarefas diarias, desenvolvido em React JS. :iphone: :ledger:
 
 <h1 align='left'>
