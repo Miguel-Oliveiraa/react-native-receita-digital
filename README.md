@@ -9,14 +9,14 @@ Aplicativo para receituarios medicos, desenvolvido em React JS. :iphone:
 ### Executar o Projeto
 Primeiro faça um clone desse repositório.
 ```
-$ git clone https://github.com/migasrcf/ReceitaDigital-FrontEnd
+$ git clone https://github.com/migasrcf/ReceitaDigital
 ou
-$ git clone git@github.com:migasrcf/ReceitaDigital-FrontEnd.git
+$ git clone git@github.com:migasrcf/ReceitaDigital.git
 ```
 
 Entre no diretorio
 ```
-$ cd ReactNativeTodoList
+$ cd ReceitaDigital
 ```
 
 Dentro da pasta rode o código abaixo para instalar as dependências. 
