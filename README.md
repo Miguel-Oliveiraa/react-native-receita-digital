@@ -9,7 +9,7 @@ Aplicativo para gerenciar as tarefas diarias, desenvolvido em React JS. :iphone:
 ### Executar o Projeto
 Primeiro faça um clone desse repositório.
 ```
-$ git clone https://github.com/migasrcf/ReactNativeTodoList.git
+$ git clone https://github.com/migasrcf/ReceitaDigital-FrontEnd
 ou
 $ git clone git@github.com:migasrcf/ReactNativeTodoList.git
 ```
