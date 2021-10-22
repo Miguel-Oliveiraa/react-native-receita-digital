@@ -1,27 +1,27 @@
 const farmaciasData = [
   {
     id: 'farmacia-1',
-    title: 'Farmácia pagamento com baixo custo',
+    title: 'Farmácia Boa vista',
     distancia: '0.3 km',
   },
   {
     id: 'farmacia-2',
-    title: 'Farmácia do proletario',
+    title: 'Farmácia Derby',
     distancia: '1 km',
   },
   {
     id: 'farmacia-3',
-    title: 'Farmácia dos humanos de baixa renda',
+    title: 'Farmácia Caxanga',
     distancia: '3 km',
   },
   {
     id: 'farmacia-4',
-    title: 'Farmácia Bongi',
+    title: 'Farmácia Recife',
     distancia: '6 km',
   },
   {
     id: 'farmacia-5',
-    title: 'Farmácia pagamento de baixo custo',
+    title: 'Farmácia Barro',
     distancia: '12 km',
   },
 ];

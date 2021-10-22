@@ -26,7 +26,7 @@ const Home = ({navigation}) => {
     return (
       <View style={styles.farmaciasItemsWrapper}>
         <View style={styles.farmaciaItem}>
-          <Text style={styles.farmaciasNameTitle}> º {item.title}</Text>
+          <Text style={styles.farmaciasNameTitle}> {item.title}</Text>
           <Text
             style={[
               styles.farmaciasDistance,
@@ -176,7 +176,7 @@ const styles = StyleSheet.create({
   receitaItemTitle: {
     fontFamily: 'Lato-Bold',
     fontSize: 18,
-    color: colors.black,
+    color: colors.white,
   },
   receitaInfoWrapper: {
     marginTop: 5,
@@ -184,12 +184,12 @@ const styles = StyleSheet.create({
   receitaMedicoNome: {
     fontFamily: 'Lato-Bold',
     fontSize: 14,
-    color: colors.black,
+    color: colors.white,
   },
   receitaConsultaText: {
     fontFamily: 'Lato-Bold',
     fontSize: 14,
-    color: colors.black,
+    color: colors.white,
   },
   farmaciasWrapper: {
     marginTop: 10,
@@ -222,7 +222,7 @@ const styles = StyleSheet.create({
   },
   farmaciasDistance: {
     marginLeft: 10,
-    marginTop: 20,
+    marginTop: 18,
     fontFamily: 'Lato-Bold',
     fontSize: 10,
     color: colors.black,

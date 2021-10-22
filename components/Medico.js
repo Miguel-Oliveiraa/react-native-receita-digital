@@ -41,7 +41,7 @@ const Medico = ({route, navigation}) => {
 
         <TouchableOpacity
           style={styles.buttonWrapper}
-          onPress={() => alert('pagar remedios')}>
+          onPress={() => alert('Pagar remedios')}>
           <Text style={styles.buttonText}>Pegar remedio</Text>
         </TouchableOpacity>
       </View>
