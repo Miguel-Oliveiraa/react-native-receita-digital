@@ -16,7 +16,7 @@ $ git clone git@github.com:Miguel-Oliveiraa/ReceitaDigital.git
 
 Entre no diretorio
 ```
-$ cd ReceitaDigital
+$ cd digital-presciption
 ```
 
 Dentro da pasta rode o código abaixo para instalar as dependências. 
