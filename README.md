@@ -9,9 +9,9 @@ Aplicativo para receituarios medicos, desenvolvido em React JS. :iphone:
 ### Executar o Projeto
 Primeiro faça um clone desse repositório.
 ```
-$ git clone https://github.com/migasrcf/ReceitaDigital
+$ git clone https://github.com/Miguel-Oliveiraa/ReceitaDigital
 ou
-$ git clone git@github.com:migasrcf/ReceitaDigital.git
+$ git clone git@github.com:Miguel-Oliveiraa/ReceitaDigital.git
 ```
 
 Entre no diretorio
