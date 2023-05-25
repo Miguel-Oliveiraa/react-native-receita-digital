@@ -9,14 +9,14 @@ Aplicativo para receituarios medicos, desenvolvido em React JS. :iphone:
 ### Executar o Projeto
 Primeiro faça um clone desse repositório.
 ```
-$ git clone https://github.com/Miguel-Oliveiraa/ReceitaDigital
+$ git clone https://github.com/Miguel-Oliveiraa/react-native-receita-digital
 ou
-$ git clone git@github.com:Miguel-Oliveiraa/ReceitaDigital.git
+$ git clone git@github.com:Miguel-Oliveiraa/react-native-receita-digital.git
 ```
 
 Entre no diretorio
 ```
-$ cd digital-presciption
+$ cd react-native-receita-digital
 ```
 
 Dentro da pasta rode o código abaixo para instalar as dependências. 
