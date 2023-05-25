@@ -1,5 +1,5 @@
 # Salus receita digital
-Aplicativo para receituarios medicos, desenvolvido em React JS. :iphone:
+Aplicativo para receituarios medicos, desenvolvido em React-Native. :iphone:
 
 <h1 align='left'>
   <img src='./modelo1.jpeg' height=425></img>
